@@ -1,6 +1,4 @@
-# Analyzer-Parser
-
-# Morse Code Converter  
+# Analyzer-Parser - Morse Code Converter  
 
 A simple program that converts text to Morse code using Flex and Bison.  
 
@@ -12,14 +10,13 @@ A simple program that converts text to Morse code using Flex and Bison.
 
 3. Choose to enter more text or exit.
 
-##How to Compile
-
+## How to Compile
 bison -d morse.y  
 flex morse.l  
 gcc lex.yy.c morse.tab.c -o morse_converter  
 
 
-Requirements
+## Requirements
 Flex
 Bison
 GCC
